@@ -13,11 +13,11 @@
 <form action="https://ptsv2.com/t/smx2m08/post" method="post">
 
 <!--Aqui va con nombre, apellido y dni-->
-    <fieldset style="width: 50%">
-      <legend>Datos de la Persona</legend>
+
+      
   <!--Nombre-->
   <h3>Formulario muy sencillo</h3>
-  Escribe tu Nombre:
+   Escribe tu Nombre:
   <input type="text" name="nombre" value="" />
   <input type="hidden" name="Nombre Secreto" value="Nombre Secreto" />
   
@@ -38,7 +38,7 @@
   <br/>
   <input name="puesto_empleado" type="checkbox" value="empleado"/> Empleado
   <br/>
-  <input type="submit"   value="Enviar" />
+  
   <!--Radios Boton --> 
 
   <!--Personajes-->
@@ -51,7 +51,8 @@
 
   <h3>Documentos personales</h3>
   <form action="maneja_formulario.php" method="post">
-    <fieldset>
+
+    <fieldset style="width:50%">
       <legend>Datos personales</legend>
       Nombre <br/>
       <input type="text" name="nombre" value="" />
@@ -65,7 +66,8 @@
       <input type="text" name="dni" value="" size="10" maxlength="9" />
     </fieldset>
   
-    <fieldset>
+    <fieldset style="width:50%">
+
       <legend>Datos de conexión</legend>
       Nombre de usuario<br/>
       <input type="text" name="nombre" value="" maxlength="10" />
@@ -76,6 +78,7 @@
       Repite la contraseña<br/>
       <input type="password" name="password2" value="" maxlength="10" />
     </fieldset>
+    <input type="submit"   value="Enviar" />
   </form>
 
 
