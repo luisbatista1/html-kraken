@@ -7,14 +7,46 @@
 <body>
 
 <h3>Formulario muy sencillo</h3>
-
+<meta charset="UTF-8">
 <form action="https://ptsv2.com/t/smx2m08/post" method="post">
-  Escribe tu nombre:
+  <!--Nombre-->
+  Escribe tu Nombre:
   <input type="text" name="nombre" value="" />
-
   <br/>
 
-  <input type="submit" value="Enviar" />
+  <!--Contraseña-->
+  Escribe tu Contrasena:
+  <input type="password" name="contrasena" value=""  size="33" />
+  <br/>
+  <!--Contraseña-->
+
+  <!--Checks con los puestos de trabajo-->
+  <h3> Puestos de trabajos buscados</h3>
+  <br/>
+  <input name="puesto_directivo"  checked="checked" type="checkbox" value="direccion"/> Dirección
+  <br/>
+  <input name="puesto_tecnico" type="checkbox" value="tecnico"/> Técnico
+  <br/>
+  <input name="puesto_empleado" type="checkbox" value="empleado"/> Empleado
+  <br/>
+  <input type="submit"   value="Enviar" />
+  <!--Radios Boton --> 
+
+  <!--Personajes-->
+  <h3></h3> Seleccion de Personajes <br/>
+<input type="radio" name="Ironman" value="Ironman" checked="checked" /> Ironman
+<input type="radio" name="Hulk" value="Hulk" /> Hulk
+<input type="radio" name="CapitanAmerica" value="Hulk" /> CapitanAmerica
+<br/>
+  <!--Personajes-->
+
+
+
+
+
+
+
+
 </form>
 
 </body>
