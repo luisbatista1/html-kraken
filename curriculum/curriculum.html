@@ -2,13 +2,39 @@
 <html lang="es">  
 
         <meta charset="UTF-8">
-        <head>
-           <title>curriculum</title>
-        </head>
+    <head>
+        <title>curriculum</title>
+         <style>
+               #bla{
+                  background-color: orangered;
+                                    color: black;
+               }
+                #blo{
+                  background-color: green;
+                                    color:black;
+                }
+                #blu{
+                  background-color: pink;
+                                    color:black;
+                }
+                #bli{
+                   background-color:rgb(91, 91, 228);     
+                                     color: black;
+                }   
+                #ble{
+                    background-color: gray;
+                                       color: black;
+                } 
+                #ho{
+                    color:green;
+                    text-align: center;
+                }               
+         </style>  
+    </head> 
     <body>
-         
-        <form action="curriculum.html" method="post">
-                <fieldset>
+    <h2 id="ho">Curriculum</h2>
+        <form action="curriculum.html" method="post" style="border:1px solid; border: 2px solid black;margin: 10% ;">
+                <fieldset id="bla">
                      <legend><b><u>Imformacion Basica</b></u></legend>
                      Nombre <br/>
                      <input type="text" name="nombre value=" />
@@ -21,11 +47,10 @@
                      <br/>
                      <label for="nombre">fecha de nacimiento</label></br>
                      <input type="date" name="fecha"value=""/>
-                </fieldset>          
-              
+                </fieldset>  
 
            
-                <fieldset>
+                <fieldset id="blo">
                     <legend><b><u>Nacionalidad<b></u></legend>
                     <input type="radio" name="Nacionalidad" value="Espana" /> Espana
                     <input type="radio" name="Nacionalidad" value="Comunitario" /> Comunitario
@@ -34,7 +59,7 @@
           
 
         
-                <fieldset>
+                <fieldset id="blu">
                      <legend>Estudios</legend>
 
                      <select> id="so" name="so">
@@ -45,7 +70,7 @@
                      </select>
                 </fieldset>
             
-                <fieldset>
+                <fieldset id="bli"> 
                     <legend><b><u>Idiomas</b></u></legend>
                     <input type="radio" name="catalan" value="catalan" /> catalan
                     <input type="radio" name="castellano" value="castellano" /> castellano
@@ -53,22 +78,11 @@
                     <input type="radio" name="chino" value="chino" /> chino
                 </fieldset>
             </br>
-                <fieldset>
+                <fieldset id="ble">
             <input type="submit"   value="Enviar" />
             <input type="submit"   value="cancelar" />
-
-                 </fieldset>
-
-
-        </form>
-        
-
-
-       
-
-
-
-            
+      </fieldset>
+        </form>        
     </body>   
 </html>
          
